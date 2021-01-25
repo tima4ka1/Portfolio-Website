@@ -1,3 +1,4 @@
+
 *{
 	padding: 0;
 	margin: 0;
@@ -36,46 +37,30 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*------------------*/
 
-body {
-	background-color: #fff;
-}
-
 header {
-	background-image: url(../img/headerBG.png);
+	position: fixed;
+	background-color: rgb(201, 56, 56);
+	width: 100%;
+	height: 100px;
 }
 
 nav {
-	padding-top: 40px;
-}
-
-nav a {
-	color: #fff;
-	font-size: 14px;
-	margin: 10px;
-}
-
-nav .headerButtons {
 	display: inline;
-	margin-right: 20%;
-	margin-left: 40%;
 }
 
-nav .logoImage {
-	width: 91px;
-	height: 23px;
-	margin-left: 10%;
+.siteName p {
+	font-size: 32px;
+	padding: 34px 10% 34px 5%;
+	
 }
 
-.welcomeText {
-	text-align: center;
+.buttons a {
 	color: #fff;
-	text-transform: uppercase;
-}
-
-.welcomeText h1 {
-	font-size: 48px;
-}
-
-.welcomeText h3 {
 	font-size: 24px;
+	text-align: right;
+	padding: 5%;
+}
+
+main {
+	padding-top: 100px;
 }
